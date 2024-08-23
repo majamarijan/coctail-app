@@ -11,6 +11,7 @@ export default function App() {
   
   return (
     <div className='wrapper'>
+      <h1>Work in progress</h1>
       <h1>Coctail App</h1>
       <div className="container">
         {coctails && coctails.drinks.map(coctail => (

@@ -15,6 +15,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*  reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -27,6 +29,12 @@ a {
   text-decoration: inherit;
   padding: 4px 6px;
 }
+
 a:hover {
   color: #535bf2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }

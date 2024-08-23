@@ -1,8 +1,9 @@
 export const urls = {
   coctails: 'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a',
   search: {
-    byName: 'www.thecocktaildb.com/api/json/v1/1/search.php?s=',
+    byName: 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=',
     byIngredient: "www.thecocktaildb.com/api/json/v1/1/search.php?i=",
+    byId: "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=",
   },
   list: {
     ingredients: 'www.thecocktaildb.com/api/json/v1/1/list.php?i=list',
